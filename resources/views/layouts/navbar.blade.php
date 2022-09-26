@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>IPC | Accueil</title>
+  <title>IPC | International pharmaceutical company</title>
   <!-- SEO Meta Tags -->
   <meta name="description" content="" />
   <meta name="keywords" content="" />
@@ -181,16 +181,13 @@
               <div class="offcanvas-body">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="docs/getting-started.html" class="nav-link">Home</a>
+                        <a href="{{ url('/') }}" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="docs/getting-started.html" class="nav-link">About us</a>
+                        <a href="{{ url('/about') }}" class="nav-link">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="docs/getting-started.html" class="nav-link">Our services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="docs/getting-started.html" class="nav-link">Contact us</a>
+                        <a href="{{ url('/contact') }}" class="nav-link">Contact us</a>
                     </li>
                 </ul>
               </div>
@@ -228,7 +225,7 @@
             <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
               <img src="{{ asset('assets/img/logo/logo.png') }}" width="100" alt="IPC">
             </div>
-            <p class="fs-sm pb-lg-3 mb-4">Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget elementum dolor ullamcorper sodales ultrices eros.</p>
+            <p class="fs-sm pb-lg-3 mb-4">We are the first company, based in Georgia, which exports the pharmaceuticals to more than 24 countries. Offering more than 20 000 branded medicines and logistic lines for delivery to every country in the world. It's our pleasure to support you any time.</p>
             <form class="needs-validation" novalidate>
               <label for="subscr-email" class="form-label">Subscribe to our newsletter</label>
               <div class="input-group">
@@ -248,9 +245,8 @@
                 <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
                   <ul class="nav flex-column pb-lg-1 mb-lg-3">
                     <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Contact</a></li>
+                    <li class="nav-item"><a href="{{ url('/about') }}" class="nav-link d-inline-block px-0 pt-1 pb-2">About</a></li>
+                    <li class="nav-item"><a href="{{ url('/contact') }}" class="nav-link d-inline-block px-0 pt-1 pb-2">Contact</a></li>
                   </ul>
                   <ul class="nav flex-column mb-2 mb-lg-0">
                     <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp; Conditions</a></li>
@@ -273,7 +269,7 @@
               </div>
               <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
                 <h6 class="mb-2">Contact Us</h6>
-                <a href="mailto:email@example.com" class="fw-medium">email@example.com</a>
+                <a href="mailto:contact@ipc.com" class="fw-medium">contact@ipc.com</a>
               </div>
             </div>
           </div>

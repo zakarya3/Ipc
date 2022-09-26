@@ -12,8 +12,10 @@
               <div class="card bg-primary border-0 shadow-primary py-2 p-sm-4 p-lg-5" data-jarallax-element="40" data-disable-parallax-down="lg">
                 <div class="card-body p-lg-3">
                   <h2 class="text-light pb-1 pb-md-3">International Pharmaceutical Company</h2>
-                  <p class="fs-lg text-light pb-2 pb-md-0 mb-4 mb-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, cum autem. Cupiditate quisquam soluta iste nisi ullam rem cum dolorem.</p>
-                  <a href="#" class="btn btn-light btn-lg">
+                  <p class="fs-lg text-light pb-2 pb-md-0 mb-4 mb-md-5">We are the first company, based in Georgia, which exports the pharmaceuticals to more than 24 countries.
+                    Offering more than 20 000 branded medicines and logistic lines for delivery to every country in the world.
+                    It's our pleasure to support you any time.</p>
+                  <a href="{{ url('about') }}" class="btn btn-light btn-lg">
                     About us
                     <i class="bx bx-right-arrow-alt lh-1 fs-4 ms-2 me-n2"></i>
                   </a>
@@ -117,8 +119,8 @@
                       <img src="{{ asset('assets/img/icons/cardiology.svg') }}" width="28" alt="Icon">
                     </div>
                     <div class="ps-4">
-                      <h3 class="h5 pb-2 mb-1">Service 1</h3>
-                      <p class="pb-2 mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel adipisci earum amet.</p>
+                      <h3 class="h5 pb-2 mb-1">Domestic Sales</h3>
+                      <p class="pb-2 mb-1">We evaluate all the drug demands of the private hospitals in the fastest way and provide the necessary support...</p>
                       <a href="#" class="btn btn-link stretched-link px-0">
                         Learn more
                         <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
@@ -132,8 +134,8 @@
                       <img src="{{ asset('assets/img/icons/scalpel.svg') }}" width="28" alt="Icon">
                     </div>
                     <div class="ps-4">
-                      <h3 class="h5 pb-2 mb-1">Service 2</h3>
-                      <p class="pb-2 mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel adipisci earum amet.</p>
+                      <h3 class="h5 pb-2 mb-1">Import and Export</h3>
+                      <p class="pb-2 mb-1">With its comprehensive product range, IPC Pharmaceutical Warehouse is able to respond to the demands and provide medicine that will perform the required treatment...</p>
                       <a href="#" class="btn btn-link stretched-link px-0">
                         Learn more
                         <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
@@ -147,8 +149,8 @@
                       <img src="{{ asset('assets/img/icons/x-ray.svg') }}" width="28" alt="Icon">
                     </div>
                     <div class="ps-4">
-                      <h3 class="h5 pb-2 mb-1">Service 3</h3>
-                      <p class="pb-2 mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel adipisci earum amet.</p>
+                      <h3 class="h5 pb-2 mb-1">Aid Organizations & Tenders</h3>
+                      <p class="pb-2 mb-1">As IPC Pharmaceutical Warehouse, we supply medicine and medical products to many aid organizations and attend tenders...</p>
                       <a href="#" class="btn btn-link stretched-link px-0">
                         Learn more
                         <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
@@ -164,8 +166,8 @@
                       <img src="{{ asset('assets/img/icons/stethoscope.svg') }}" width="28" alt="Icon">
                     </div>
                     <div class="ps-4">
-                      <h3 class="h5 pb-2 mb-1">Service 4</h3>
-                      <p class="pb-2 mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel adipisci earum amet.</p>
+                      <h3 class="h5 pb-2 mb-1">Distributorship</h3>
+                      <p class="pb-2 mb-1">We offer medical distributorships to leading Turkish manufacturers for export and / or business development purposes...</p>
                       <a href="#" class="btn btn-link stretched-link px-0">
                         Learn more
                         <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
@@ -179,8 +181,8 @@
                       <img src="{{ asset('assets/img/icons/lungs.svg') }}" width="28" alt="Icon">
                     </div>
                     <div class="ps-4">
-                      <h3 class="h5 pb-2 mb-1">Service 5</h3>
-                      <p class="pb-2 mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel adipisci earum amet.</p>
+                      <h3 class="h5 pb-2 mb-1">International sales</h3>
+                      <p class="pb-2 mb-1">We work with many healthcare institutions, pharmacies, hospitals, international warehouses and suppliers in 62 countries to provide patients with affordable...</p>
                       <a href="#" class="btn btn-link stretched-link px-0">
                         Learn more
                         <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
@@ -194,8 +196,8 @@
                       <img src="{{ asset('assets/img/icons/tooth.svg') }}" width="28" alt="Icon">
                     </div>
                     <div class="ps-4">
-                      <h3 class="h5 pb-2 mb-1">Dental Care</h3>
-                      <p class="pb-2 mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel adipisci earum amet.</p>
+                      <h3 class="h5 pb-2 mb-1">Humane aid</h3>
+                      <p class="pb-2 mb-1">Medimpex provides medicines to patients in need under all circumstances in international and local projects ...</p>
                       <a href="#" class="btn btn-link stretched-link px-0">
                         Learn more
                         <i class="bx bx-right-arrow-alt fs-xl ms-2"></i>
@@ -208,6 +210,166 @@
           </div>
         </div>
       </section>
+            <!-- Team -->
+            <section class="container pt-xl-2 pb-5 mb-md-3 mb-lg-5">
+              <div class="d-md-flex align-items-center justify-content-between text-center text-md-start pb-1 pb-lg-0 mb-4 mb-lg-5">
+                <h2 class="h1 mb-md-0">Our team</h2>
+                <a href="#" class="btn btn-outline-primary">
+                  See all doctors
+                  <i class="bx bx-right-arrow-alt fs-xl ms-2 me-n1"></i>
+                </a>
+              </div>
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+      
+                <!-- Item -->
+                <div class="col">
+                  <div class="card card-hover border-0 bg-transparent">
+                    <div class="position-relative">
+                      <img src="{{ asset('assets/img/team/02.jpg') }}" class="rounded-3" alt="Darrell Steward">
+                      <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center rounded-3">
+                        <span class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-35 rounded-3"></span>
+                        <div class="position-relative d-flex zindex-2">
+                          <a href="#" class="btn btn-icon btn-secondary btn-facebook btn-sm bg-white me-2">
+                            <i class="bx bxl-facebook"></i>
+                          </a>
+                          <a href="#" class="btn btn-icon btn-secondary btn-linkedin btn-sm bg-white me-2">
+                            <i class="bx bxl-linkedin"></i>
+                          </a>
+                          <a href="#" class="btn btn-icon btn-secondary btn-twitter btn-sm bg-white">
+                            <i class="bx bxl-twitter"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center p-3">
+                      <h3 class="fs-lg fw-semibold pt-1 mb-2">Darrell Steward</h3>
+                      <p class="fs-sm mb-2">Cardiologist</p>
+                      <div class="d-flex align-items-center justify-content-center">
+                        <div class="text-nowrap me-1">
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bx-star text-muted fs-sm opacity-75"></i>
+                        </div>
+                        <span class="fs-xs text-muted">(14 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Item -->
+                <div class="col">
+                  <div class="card card-hover border-0 bg-transparent">
+                    <div class="position-relative">
+                      <img src="{{ asset('assets/img/team/02.jpg') }}" class="rounded-3" alt="Annette Black">
+                      <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center rounded-3">
+                        <span class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-35 rounded-3"></span>
+                        <div class="position-relative d-flex zindex-2">
+                          <a href="#" class="btn btn-icon btn-secondary btn-facebook btn-sm bg-white me-2">
+                            <i class="bx bxl-facebook"></i>
+                          </a>
+                          <a href="#" class="btn btn-icon btn-secondary btn-linkedin btn-sm bg-white me-2">
+                            <i class="bx bxl-linkedin"></i>
+                          </a>
+                          <a href="#" class="btn btn-icon btn-secondary btn-twitter btn-sm bg-white">
+                            <i class="bx bxl-twitter"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center p-3">
+                      <h3 class="fs-lg fw-semibold pt-1 mb-2">Annette Black</h3>
+                      <p class="fs-sm mb-2">Pediatrician</p>
+                      <div class="d-flex align-items-center justify-content-center">
+                        <div class="text-nowrap me-1">
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bx-star text-muted fs-sm opacity-75"></i>
+                        </div>
+                        <span class="fs-xs text-muted">(10 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Item -->
+                <div class="col">
+                  <div class="card card-hover border-0 bg-transparent">
+                    <div class="position-relative">
+                      <img src="{{ asset('assets/img/team/02.jpg') }}" class="rounded-3" alt="Dianne Russell">
+                      <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center rounded-3">
+                        <span class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-35 rounded-3"></span>
+                        <div class="position-relative d-flex zindex-2">
+                          <a href="#" class="btn btn-icon btn-secondary btn-facebook btn-sm bg-white me-2">
+                            <i class="bx bxl-facebook"></i>
+                          </a>
+                          <a href="#" class="btn btn-icon btn-secondary btn-linkedin btn-sm bg-white me-2">
+                            <i class="bx bxl-linkedin"></i>
+                          </a>
+                          <a href="#" class="btn btn-icon btn-secondary btn-twitter btn-sm bg-white">
+                            <i class="bx bxl-twitter"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center p-3">
+                      <h3 class="fs-lg fw-semibold pt-1 mb-2">Dianne Russell</h3>
+                      <p class="fs-sm mb-2">Dentist</p>
+                      <div class="d-flex align-items-center justify-content-center">
+                        <div class="text-nowrap me-1">
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                        </div>
+                        <span class="fs-xs text-muted">(5 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Item -->
+                <div class="col">
+                  <div class="card card-hover border-0 bg-transparent">
+                    <div class="position-relative">
+                      <img src="{{ asset('assets/img/team/02.jpg') }}" class="rounded-3" alt="Courtney Henry">
+                      <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center rounded-3">
+                        <span class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-35 rounded-3"></span>
+                        <div class="position-relative d-flex zindex-2">
+                          <a href="#" class="btn btn-icon btn-secondary btn-facebook btn-sm bg-white me-2">
+                            <i class="bx bxl-facebook"></i>
+                          </a>
+                          <a href="#" class="btn btn-icon btn-secondary btn-linkedin btn-sm bg-white me-2">
+                            <i class="bx bxl-linkedin"></i>
+                          </a>
+                          <a href="#" class="btn btn-icon btn-secondary btn-twitter btn-sm bg-white">
+                            <i class="bx bxl-twitter"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body text-center p-3">
+                      <h3 class="fs-lg fw-semibold pt-1 mb-2">Courtney Henry</h3>
+                      <p class="fs-sm mb-2">Gynecologist</p>
+                      <div class="d-flex align-items-center justify-content-center">
+                        <div class="text-nowrap me-1">
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                          <i class="bx bxs-star text-warning fs-sm"></i>
+                        </div>
+                        <span class="fs-xs text-muted">(16 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
 
 
       <!-- Contacts -->
